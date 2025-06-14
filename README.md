@@ -14,10 +14,10 @@ Jabbercracky hosts realistic time-locked password cracking events designed to be
   examples and slow algorithms.
 - `jabbercracky_[NUMBER].rule (50-250k)`: Iterative rules designed for consistent
   coverage. Each set is built off the last, meaning that the larger sets will
-  contain the smaller ones in additon to new rules. The largest rules will
-  contain all of the repository rules and some not featured.
+  contain the smaller ones in addition to new rules. The largest rules will
+  contain all the repository rules and some not featured.
 - `jabbercracky_[MODE]_30k.rule`: Specially crafted rules to show examples of
-  creating rules for specifc patterns. Each of these show off a method to rule
+  creating rules for specific patterns. Each of these shows off a method to rule
   creation.
     - `append`: appending non-alphabetical characters and patterns
     - `prepend`: prepending alphabetical characters and patterns
@@ -26,7 +26,7 @@ Jabbercracky hosts realistic time-locked password cracking events designed to be
     - `poggle`: prepending and toggle alphabetical characters
 - `jabbercracky_post_process`: A rule demonstrating that when doing multi-rule
   configurations, having a smaller secondary rule set at the end will be more
-  efficient. An example rule of creating a specific rule for post processing
+  efficient. An example rule of creating a specific rule for post-processing
   other rule chains.
 
 
