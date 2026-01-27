@@ -11,7 +11,7 @@ Hashcracky hosts realistic time-locked password cracking events designed to be f
 
 - `hashcracky_short_15.rule`: The shortest rule created to show basic rule
   examples and slow algorithms.
-- `hashcracky_[NUMBER].rule (50-250k)`: Iterative rules designed for consistent
+- `hashcracky_[NUMBER].rule (50-*k+)`: Iterative rules designed for consistent
   coverage. Each set is built off the last, meaning that the larger sets will
   contain the smaller ones in addition to new rules. The largest rules will
   contain all the repository rules and some not featured.
